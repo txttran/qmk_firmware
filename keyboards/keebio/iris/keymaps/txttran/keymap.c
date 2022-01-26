@@ -74,23 +74,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 )};
 
 const rgblight_segment_t PROGMEM off_layer[]         = RGBLIGHT_LAYER_SEGMENTS(
-    {0, 18, 0, 0, 0}
+    {0, 64, 0, 0, 0}
 );
 const rgblight_segment_t PROGMEM left_side_layer[]   = RGBLIGHT_LAYER_SEGMENTS(
-    {0, 1, HSV_GOLD},
-    {1, 11, 0, 0, 0}
+    {0, 34, HSV_GOLD}
 );
 const rgblight_segment_t PROGMEM right_side_layer[]  = RGBLIGHT_LAYER_SEGMENTS(
-    {0, 11, 0, 0, 0},
-    {11, 1, HSV_RED}
+    {34, 34, HSV_RED}
 );
 const rgblight_segment_t PROGMEM both_sides_layer[]  = RGBLIGHT_LAYER_SEGMENTS(
-    {0, 1, HSV_PURPLE},
-    {1, 10, 0, 0, 0},
-    {11, 1, HSV_PURPLE}
+    {0, 64, HSV_PURPLE}
 );
 const rgblight_segment_t PROGMEM my_capslock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {2, 2, HSV_GREEN}
+    {34, 2, HSV_GREEN}
 );
 
 // Now define the array of layers. Later layers take precedence
