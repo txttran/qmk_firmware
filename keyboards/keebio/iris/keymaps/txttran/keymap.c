@@ -74,7 +74,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 )};
 
 const rgblight_segment_t PROGMEM off_layer[]         = RGBLIGHT_LAYER_SEGMENTS(
-    {0, 64, 0, 0, 0}
+    {0, 68, 0, 0, 0}
 );
 const rgblight_segment_t PROGMEM left_side_layer[]   = RGBLIGHT_LAYER_SEGMENTS(
     {0, 34, HSV_GOLD}
