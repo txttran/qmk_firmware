@@ -22,6 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define RGBLIGHT_LAYERS
 #define RGBLIGHT_SLEEP
+#define RGBLIGHT_ANIMATIONS
 
 #define TAPPING_TERM 175
 #define IGNORE_MOD_TAP_INTERRUPT
